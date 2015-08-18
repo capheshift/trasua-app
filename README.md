@@ -5,4 +5,4 @@ Hyberid app, là ứng dụng hẹn hò dựa trên cung hoàng đạo.
 [WindowPhone](https://www.microsoft.com/en-us/store/apps/trasua/9wzdncrd284x).
 
 
-#trasua được phát triển dựa trên reactjs, và dùng phonegap để port qua di động.
+Ứng dụng được phát triển dựa trên reactjs, và dùng phonegap để port qua di động.
