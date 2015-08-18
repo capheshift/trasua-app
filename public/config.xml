@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  id="com.tumblr.youthstudios.trasua" versionCode="04" version="0.9.0">
+  <!-- versionCode is optional and Android only -->
+  <name>#trasua</name>
+  <description>
+    Ứng dụng giúp tìm gấu dựa trên cung hoàng đạo.
+  </description>
+  <author href="http://youthstudios.tumblr.com/" email="tampham47@live.com">
+    YouthStudios
+  </author>
+
+  <!-- features -->
+  <feature name="http://api.phonegap.com/1.0/network" />
+  <feature name="http://api.phonegap.com/1.0/geolocation" />
+  <!-- <feature name="http://api.phonegap.com/1.0/media" /> -->
+  <feature name="http://api.phonegap.com/1.0/device" />
+
+  <gap:plugin name="org.apache.cordova.inappbrowser"
+    version="0.6.0" source="plugins.cordova.io" />
+  <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+
+  <!-- app -->
+  <icon src="icon.png" />
+  <gap:splash src="splash.jpg" />
+
+  <!-- portrait only -->
+  <preference name="Orientation" value="portrait" />
+  <preference gap:platform="winphone" name="Fullscreen" value="true" />
+
+  <preference name="SplashScreen" value="splash" />
+  <!-- <preference name="SplashScreenDelay" value="5000" /> -->
+  <!-- <preference name="SplashScreenBackgroundColor" value="white" /> -->
+</widget>
